@@ -1,0 +1,10 @@
+	Array Important Points :-
+	
+	1 - Array Internally is a Pointer.
+	
+	2 - Array is used because multiple elements of same datatype
+	    can be initialized only once.
+
+	3 - By using array, size of memory is not reduced.
+
+	4 - If you call Array then it is calling first element's address.
