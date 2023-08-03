@@ -1,0 +1,17 @@
+
+	Traversing is the process by which we can visit and access each and every element present in any data structure like array, linkedList, or tree
+
+	Tree Traversal :-
+
+		Actually there are many ways but we are going for 5 of them
+
+		1] DFS
+			
+			a] Preorder	= Node, Left, Right
+			b] InOrder	= Left, Node, Right
+			c] Postorder	= Left, Right, Node
+
+		2] BFS
+			
+			a] Level order
+			b] Vertical Order
