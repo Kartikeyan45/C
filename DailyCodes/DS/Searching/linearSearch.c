@@ -1,0 +1,40 @@
+/*	Program 1;
+*/
+
+#include<stdio.h>
+
+int linearSearch(int arr[], int size, int search){
+
+	for(int i = 0; i < size; i++){
+	
+		if(arr[i] == search){
+			
+			return i;
+		}
+	}
+
+	return -1;
+
+}
+
+void main(){
+	
+	int size;
+	printf("Enter Size\n");
+	scanf("%d", &size);
+
+	int arr[size];
+
+	printf("Enter Array Elements\n");
+	for(int i = 0; i < size; i++){
+		
+		scanf("%d", &arr[i]);
+	}
+
+	int search;
+	printf("Enter Search Element\n");
+	scanf("%d", &search);
+
+	int ret = linearSearch(arr, size, search);
+	printf("Index is : %d\n", ret);
+}
