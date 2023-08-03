@@ -1,0 +1,10 @@
+	
+	1 - Pointer is a variable that can store address of any variable.
+	
+	2 - Size of Pointer is 8 bytes.
+
+	3 - reference = & and dereference = *
+
+	4 - %d = half address and  %p = full address.
+
+	5 - 
